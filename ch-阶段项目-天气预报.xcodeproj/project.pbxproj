@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FF13565183310FC00DCC83C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF13564183310FC00DCC83C /* UIKit.framework */; };
+		0FF13567183310FC00DCC83C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF13566183310FC00DCC83C /* Foundation.framework */; };
+		0FF13569183310FC00DCC83C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF13568183310FC00DCC83C /* CoreGraphics.framework */; };
+		0FF1356F183310FC00DCC83C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FF1356D183310FC00DCC83C /* InfoPlist.strings */; };
+		0FF13571183310FC00DCC83C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF13570183310FC00DCC83C /* main.m */; };
+		0FF13575183310FC00DCC83C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF13574183310FC00DCC83C /* AppDelegate.m */; };
+		0FF13577183310FC00DCC83C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FF13576183310FC00DCC83C /* Default.png */; };
+		0FF13579183310FC00DCC83C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FF13578183310FC00DCC83C /* Default@2x.png */; };
+		0FF1357B183310FC00DCC83C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FF1357A183310FC00DCC83C /* Default-568h@2x.png */; };
+		0FF1357E183310FC00DCC83C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1357D183310FC00DCC83C /* ViewController.m */; };
+		0FF13581183310FC00DCC83C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FF1357F183310FC00DCC83C /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FF13561183310FC00DCC83C /* ch-阶段项目-天气预报.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ch-阶段项目-天气预报.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FF13564183310FC00DCC83C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0FF13566183310FC00DCC83C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0FF13568183310FC00DCC83C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0FF1356C183310FC00DCC83C /* ch-阶段项目-天气预报-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ch-阶段项目-天气预报-Info.plist"; sourceTree = "<group>"; };
+		0FF1356E183310FC00DCC83C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0FF13570183310FC00DCC83C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0FF13572183310FC00DCC83C /* ch-阶段项目-天气预报-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ch-阶段项目-天气预报-Prefix.pch"; sourceTree = "<group>"; };
+		0FF13573183310FC00DCC83C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0FF13574183310FC00DCC83C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0FF13576183310FC00DCC83C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0FF13578183310FC00DCC83C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0FF1357A183310FC00DCC83C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0FF1357C183310FC00DCC83C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0FF1357D183310FC00DCC83C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0FF13580183310FC00DCC83C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FF1355E183310FC00DCC83C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF13565183310FC00DCC83C /* UIKit.framework in Frameworks */,
+				0FF13567183310FC00DCC83C /* Foundation.framework in Frameworks */,
+				0FF13569183310FC00DCC83C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FF13558183310FC00DCC83C = {
+			isa = PBXGroup;
+			children = (
+				0FF1356A183310FC00DCC83C /* ch-阶段项目-天气预报 */,
+				0FF13563183310FC00DCC83C /* Frameworks */,
+				0FF13562183310FC00DCC83C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FF13562183310FC00DCC83C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FF13561183310FC00DCC83C /* ch-阶段项目-天气预报.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FF13563183310FC00DCC83C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FF13564183310FC00DCC83C /* UIKit.framework */,
+				0FF13566183310FC00DCC83C /* Foundation.framework */,
+				0FF13568183310FC00DCC83C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FF1356A183310FC00DCC83C /* ch-阶段项目-天气预报 */ = {
+			isa = PBXGroup;
+			children = (
+				0FF13573183310FC00DCC83C /* AppDelegate.h */,
+				0FF13574183310FC00DCC83C /* AppDelegate.m */,
+				0FF1357C183310FC00DCC83C /* ViewController.h */,
+				0FF1357D183310FC00DCC83C /* ViewController.m */,
+				0FF1357F183310FC00DCC83C /* ViewController.xib */,
+				0FF1356B183310FC00DCC83C /* Supporting Files */,
+			);
+			path = "ch-阶段项目-天气预报";
+			sourceTree = "<group>";
+		};
+		0FF1356B183310FC00DCC83C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FF1356C183310FC00DCC83C /* ch-阶段项目-天气预报-Info.plist */,
+				0FF1356D183310FC00DCC83C /* InfoPlist.strings */,
+				0FF13570183310FC00DCC83C /* main.m */,
+				0FF13572183310FC00DCC83C /* ch-阶段项目-天气预报-Prefix.pch */,
+				0FF13576183310FC00DCC83C /* Default.png */,
+				0FF13578183310FC00DCC83C /* Default@2x.png */,
+				0FF1357A183310FC00DCC83C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FF13560183310FC00DCC83C /* ch-阶段项目-天气预报 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FF13584183310FC00DCC83C /* Build configuration list for PBXNativeTarget "ch-阶段项目-天气预报" */;
+			buildPhases = (
+				0FF1355D183310FC00DCC83C /* Sources */,
+				0FF1355E183310FC00DCC83C /* Frameworks */,
+				0FF1355F183310FC00DCC83C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ch-阶段项目-天气预报";
+			productName = "ch-阶段项目-天气预报";
+			productReference = 0FF13561183310FC00DCC83C /* ch-阶段项目-天气预报.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FF13559183310FC00DCC83C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ibokan;
+			};
+			buildConfigurationList = 0FF1355C183310FC00DCC83C /* Build configuration list for PBXProject "ch-阶段项目-天气预报" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0FF13558183310FC00DCC83C;
+			productRefGroup = 0FF13562183310FC00DCC83C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FF13560183310FC00DCC83C /* ch-阶段项目-天气预报 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FF1355F183310FC00DCC83C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF1356F183310FC00DCC83C /* InfoPlist.strings in Resources */,
+				0FF13577183310FC00DCC83C /* Default.png in Resources */,
+				0FF13579183310FC00DCC83C /* Default@2x.png in Resources */,
+				0FF1357B183310FC00DCC83C /* Default-568h@2x.png in Resources */,
+				0FF13581183310FC00DCC83C /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FF1355D183310FC00DCC83C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF13571183310FC00DCC83C /* main.m in Sources */,
+				0FF13575183310FC00DCC83C /* AppDelegate.m in Sources */,
+				0FF1357E183310FC00DCC83C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0FF1356D183310FC00DCC83C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FF1356E183310FC00DCC83C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0FF1357F183310FC00DCC83C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FF13580183310FC00DCC83C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FF13582183310FC00DCC83C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0FF13583183310FC00DCC83C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FF13585183310FC00DCC83C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch-阶段项目-天气预报/ch-阶段项目-天气预报-Prefix.pch";
+				INFOPLIST_FILE = "ch-阶段项目-天气预报/ch-阶段项目-天气预报-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0FF13586183310FC00DCC83C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ch-阶段项目-天气预报/ch-阶段项目-天气预报-Prefix.pch";
+				INFOPLIST_FILE = "ch-阶段项目-天气预报/ch-阶段项目-天气预报-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FF1355C183310FC00DCC83C /* Build configuration list for PBXProject "ch-阶段项目-天气预报" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FF13582183310FC00DCC83C /* Debug */,
+				0FF13583183310FC00DCC83C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FF13584183310FC00DCC83C /* Build configuration list for PBXNativeTarget "ch-阶段项目-天气预报" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FF13585183310FC00DCC83C /* Debug */,
+				0FF13586183310FC00DCC83C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FF13559183310FC00DCC83C /* Project object */;
+}
